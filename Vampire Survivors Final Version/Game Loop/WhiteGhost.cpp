@@ -23,7 +23,7 @@ WhiteGhost::WhiteGhost(float _x, float _y, GamesEngineeringBase::Window& canvas)
 
 	moveSpeed = 7.0f;
 
-	health = 150.0f;
+	health = 150;
 }
 
 // Destructor

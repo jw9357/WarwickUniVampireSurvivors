@@ -26,7 +26,7 @@ Shooter::Shooter(float _x, float _y, GamesEngineeringBase::Window& canvas)
 
 	moveSpeed = 12.0f;    // static enemy shooter
 
-	health = 300.0f;     // Enemy with top health
+	health = 300;     // Enemy with top health
 
 	drawProjectileTimer = 20.0f;
 	enemyProjectileActive = false;

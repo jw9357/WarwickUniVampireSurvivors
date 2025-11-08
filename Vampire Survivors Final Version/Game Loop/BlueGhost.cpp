@@ -22,7 +22,7 @@ BlueGhost::BlueGhost(float _x, float _y, GamesEngineeringBase::Window& canvas)
 
 	moveSpeed = 15.0f;
 
-	health = 50.0f;
+	health = 50;
 }
 
 // Destructor

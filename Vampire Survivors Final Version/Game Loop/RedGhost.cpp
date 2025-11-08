@@ -23,7 +23,7 @@ RedGhost::RedGhost(float _x, float _y, GamesEngineeringBase::Window& canvas)
 
 	moveSpeed = 10.0f;                             
 
-	health = 100.0f;
+	health = 100;
 }
 
 // Destructor

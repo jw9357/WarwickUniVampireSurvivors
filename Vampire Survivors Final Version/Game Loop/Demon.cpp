@@ -23,7 +23,7 @@ Demon::Demon(float _x, float _y, GamesEngineeringBase::Window& canvas)
 
 	moveSpeed = 5.0f;
 
-	health = 200.0f;
+	health = 200;
 }
 
 // Destructor

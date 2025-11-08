@@ -10,7 +10,7 @@ class WhiteGhost : public Enemy
 private:
 
 protected:
-	float health;
+	int health;
 
 public:
 	bool enemyAlive = true;

@@ -121,7 +121,7 @@ void Enemy::drawEnemy(GamesEngineeringBase::Window* canvas, float cameraX, float
 					{
 						if (currentDirectionImage->alphaAt(x, y) > 0)
 						{
-							canvas->draw(screenX + x, screenY + y, currentDirectionImage->at(x, y));  // if the code makes it this far, then image can be drawn
+							canvas->draw(static_cast<int>(screenX) + x, static_cast<int>(screenY) + y, currentDirectionImage->at(x, y));  // if the code makes it this far, then image can be drawn
 						}
 					}
 				}

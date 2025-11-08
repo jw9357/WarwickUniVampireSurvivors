@@ -61,7 +61,7 @@ public:
 		return enemies;
 	}
 
-	int getSpawnDelay(float spawnDelay)     // getter for enemy Spawn Delay, used when saving game
+	float getSpawnDelay(float spawnDelay)     // getter for enemy Spawn Delay, used when saving game
 	{
 		return spawnDelay;
 	}

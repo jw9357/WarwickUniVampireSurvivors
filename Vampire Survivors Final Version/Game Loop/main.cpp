@@ -69,18 +69,7 @@ void loadGame(Player& player, EnemyManager& enemyManager)
 
 		float playerX, cameraX, playerY, cameraY;
 		inFile >> playerX >> cameraX >> playerY >> cameraY;
-		player.setPosition(playerX, cameraX, playerY, cameraY);
-
-		int enemyCount = enemyManager.getEnemyCount();
-		enemyCount = 0;                               
-
-		/*for (int i = 0; i < enemyCount; i++)
-		{
-			float enemyX, enemyY, projectileX, projectileY;
-			inFile >> enemyX >> enemyY >> projectileX >> projectileY;
-			Enemy* ptr = new Enemy();
-			enemyManager.add(ptr);
-		}*/
+		player.setPosition(playerX, cameraX, playerY, cameraY);                            
 	}
 
 }
